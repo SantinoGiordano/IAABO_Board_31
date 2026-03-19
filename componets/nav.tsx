@@ -20,23 +20,29 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="w-full p-5 bg-gray-900 text-white shadow-md">
-      <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+    <nav className="sticky top-0 z-50 w-full backdrop-blur-md bg-black/70 border-b border-white/10">
+      <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between text-white">
         
         {/* Logo */}
-        <div className="text-xl font-bold">
-          IABBO BOARD 31
+        <div className="text-xl md:text-2xl font-extrabold tracking-wide">
+          <span className="text-white">IAABO</span>{" "}
+          <span className="text-blue-400">Board 31</span>
         </div>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex space-x-6">
+        <div className="hidden md:flex items-center space-x-6">
           {links.map((link) => (
             <Link
               key={link.name}
               href={link.href}
-              className="hover:text-blue-400 transition duration-200"
+              className="relative group text-sm font-medium"
             >
-              {link.name}
+              <span className="group-hover:text-blue-400 transition">
+                {link.name}
+              </span>
+
+              {/* Underline animation */}
+              <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-blue-400 transition-all group-hover:w-full"></span>
             </Link>
           ))}
         </div>
@@ -66,16 +72,16 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       <div
-        className={`md:hidden bg-gray-800 px-4 overflow-hidden transition-all duration-300 ${
-          isOpen ? "max-h-[500px] py-4" : "max-h-0"
+        className={`md:hidden overflow-hidden transition-all duration-300 ${
+          isOpen ? "max-h-[600px] py-4" : "max-h-0"
         }`}
       >
-        <div className="flex flex-col space-y-3">
+        <div className="mx-4 bg-white text-gray-900 rounded-xl shadow-lg p-4 flex flex-col space-y-3">
           {links.map((link) => (
             <Link
               key={link.name}
               href={link.href}
-              className="hover:text-blue-400 transition duration-200"
+              className="hover:text-blue-600 transition font-medium"
               onClick={() => setIsOpen(false)}
             >
               {link.name}

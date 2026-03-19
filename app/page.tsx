@@ -6,10 +6,10 @@ export default function Home() {
         className="h-[60vh] bg-fixed bg-center bg-cover flex items-center justify-center"
         style={{
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1517649763962-0c623066013b')",
+            "url('heroBanner.jpg')",
         }}
       >
-        <h1 className="text-4xl md:text-6xl font-bold text-white bg-black/50 px-6 py-3 rounded-xl">
+        <h1 className="text-4xl md:text-6xl font-bold text-white  px-6 py-3 rounded-xl">
           Welcome to IAABO Board 31
         </h1>
       </section>

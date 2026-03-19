@@ -111,6 +111,21 @@ export default function Home() {
                 </div>
               </a>
             </div>
+            <hr/>
+          <div className="text-center space-y-2">
+            <div>
+              President : <span className="font-semibold">John Doe</span>
+            </div>
+            <div>
+              Vice President : <span className="font-semibold">Jane Smith</span>  
+            </div>
+            <div>
+              Secretary : <span className="font-semibold">Emily Johnson</span>
+            </div>
+             <div>
+              Treasurer : <span className="font-semibold">Michael Brown</span>
+              </div>
+          </div>
           </div>
         </div>
       </section>

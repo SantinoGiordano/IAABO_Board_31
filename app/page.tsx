@@ -91,14 +91,25 @@ export default function Home() {
 
             {/* IMAGE WITH CIRCLE BACKGROUND */}
             <div className="flex justify-center">
-              <div className="bg-white p-6 rounded-full shadow-lg border">
-                <img
-                  src="/officals_vs_cancer_logo.webp"
-                  alt="Officials vs Cancer Logo"
-                  className="w-40 h-40 object-contain"
-                  draggable={false}
-                />
-              </div>
+              <a
+                href="https://officials.cancer.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group"
+              >
+                <div
+                  className="bg-white p-6 rounded-full shadow-lg border 
+                    transform transition-all duration-300 ease-in-out
+                    group-hover:scale-110 group-active:scale-95"
+                >
+                  <img
+                    src="/officals_vs_cancer_logo.webp"
+                    alt="Officials vs Cancer Logo"
+                    className="w-40 h-40 object-contain pointer-events-none"
+                    draggable={false}
+                  />
+                </div>
+              </a>
             </div>
           </div>
         </div>

@@ -1,17 +1,19 @@
 export default function Home() {
   return (
-<div>
-  <section
-    className="h-[60vh] bg-[url('/heroBanner.jpg')] bg-fixed bg-center bg-cover flex items-center justify-center"
-  >
-        <h1 className="text-4xl md:text-6xl font-bold text-white  px-6 py-3 rounded-xl">
+    <div>
+      <section className="relative h-[60vh] bg-[url('/heroBanner.jpg')] bg-center bg-cover flex items-center justify-center md:bg-fixed">
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-black/50"></div>
+
+        {/* Content */}
+        <h1 className="relative text-4xl md:text-6xl font-bold text-white px-6 py-3 rounded-xl">
           Welcome to IAABO Board 31
         </h1>
       </section>
       <section className="px-6 md:px-20 py-16 space-y-6 text-gray-700">
         <h2 className="text-3xl font-semibold mb-4">About Our Board</h2>
 
-         <p>
+        <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod,
           nisl vel tincidunt luctus, nunc nisl aliquam nunc, eget aliquam nisl
           nunc eu nisl. Vestibulum ante ipsum primis in faucibus orci luctus et
@@ -31,8 +33,9 @@ export default function Home() {
         </p>
 
         <p>
-          Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur
-          tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor.
+          Curabitur sodales ligula in libero. Sed dignissim lacinia nunc.
+          Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem
+          at dolor.
         </p>
 
         <p>
@@ -71,8 +74,9 @@ export default function Home() {
         </p>
 
         <p>
-          Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur
-          tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor.
+          Curabitur sodales ligula in libero. Sed dignissim lacinia nunc.
+          Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem
+          at dolor.
         </p>
 
         <p>

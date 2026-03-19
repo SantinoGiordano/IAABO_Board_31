@@ -20,11 +20,17 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="sticky top-0 z-50 w-full backdrop-blur-md bg-black/70 border-b border-white/10">
+    <nav className="sticky pt-3 pb-3 top-0 z-50 w-full backdrop-blur-md bg-black/70 border-b border-white/10">
       <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between text-white">
         
         {/* Logo */}
         <div className="text-xl md:text-2xl font-extrabold tracking-wide">
+          <img
+            src="/iaaboLogoRed.png"
+            alt="IAABO Logo"
+            className="w-8 h-8 inline-block mr-2 object-contain"
+            draggable={false}
+          />
           <span className="text-white">IAABO</span>{" "}
           <span className="text-blue-400">Board 31</span>
         </div>

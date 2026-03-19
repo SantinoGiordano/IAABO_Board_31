@@ -32,6 +32,22 @@ export default function Home() {
           >
             Refresher Exam
           </a>
+          <br />
+          Please be sure to enter your first and last name when taking the exam
+          <br />
+          Please complete the exam by xx/xx/xxxx
+        </div>
+        <hr />
+        <div>
+          MIAA Registration and Background Checks are due before the season!
+          <br />
+          Please see Board News or Click here to get started.
+        </div>
+        <hr />
+        <div>
+          NFHS Concussion Certifacations are due before the season starts!
+          <br/>
+          Follow these steps by step instructions.
         </div>
         <hr />
         <p>

@@ -12,13 +12,28 @@ export default function Home() {
       </section>
       <section className="px-6 md:px-20 py-16 space-y-6 text-gray-700">
         <h2 className="text-3xl font-semibold mb-4">About Our Board</h2>
-        
         <div>In-person meetings:</div> Naismith Memorial Basketball Hall of
         Fame, Springfield, MA -
         <br />
         <div>Virtual meetings:</div> Zoom invite disseminated to the membership
-        -
-        <br />
+        -<h2 className="text-2xl font-bold">Regular season Meetings</h2>
+        <div>
+          December 7 In Person | 10am <br />
+          December 14 Zoom | 10am <br />
+          January 11 Zoom | 10am <br />
+          Febuary 1 In Person | 10am <br />
+        </div>
+        <hr />
+        <div>
+          The 2026 Refresher Exam can be found here{" "}
+          <a
+            href="https://www.npmjs.com/"
+            className="text-blue-500 hover:underline"
+          >
+            Refresher Exam
+          </a>
+        </div>
+        <hr />
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod,
           nisl vel tincidunt luctus, nunc nisl aliquam nunc, eget aliquam nisl

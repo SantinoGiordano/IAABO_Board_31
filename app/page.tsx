@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Footer from "@/componets/footer";
+import MeetingInfo from "@/componets/MeetingInfo";
 
 export default function Home() {
   return (
@@ -39,16 +40,14 @@ export default function Home() {
             <div className="border-t border-gray-200"></div>
 
             {/* REGULAR MEETINGS */}
-            <div className="text-center space-y-2">
-              <h2 className="text-2xl font-bold text-blue-700">
-                Regular Season Meetings
-              </h2>
-
-              <p>December 7 — In Person | 10am</p>
-              <p>December 14 — Zoom | 10am</p>
-              <p>January 11 — Zoom | 10am</p>
-              <p>February 1 — In Person | 10am</p>
-            </div>
+            <MeetingInfo
+              meetings={[
+                { date: "December 7", type: "In Person", time: "10am" },
+                { date: "December 14", type: "Zoom", time: "10am" },
+                { date: "January 7", type: "In Person", time: "10am" },
+                { date: "January 15", type: "Zoom", time: "10am" },
+              ]}
+            />
 
             {/* DIVIDER */}
             <div className="border-t border-gray-200"></div>
@@ -111,25 +110,48 @@ export default function Home() {
                 </div>
               </a>
             </div>
-            <hr/>
-          <div className="text-center space-y-2">
-            <div>
-              President : <span className="font-semibold">John Doe</span>
+            <div className="max-w-3xl mx-auto text-center mt-4">
+              <p className="text-sm text-gray-600 text-justify leading-relaxed">
+                A heartfelt thank you to all who donated and participated in our
+                initiative for the 2026 season. Since 2016, Board 31 members and
+                supporters have donated more than $6,000 to the American Cancer
+                Society, donning pink whistles, lanyards, and lapel pins during
+                OVC Week to demonstrate our unity in this fight.{" "}
+                <a
+                  href="https://officials.cancer.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 font-medium underline hover:text-blue-800 transition"
+                >
+                  Visit our site
+                </a>{" "}
+                to donate and track our progress, or contact Officials vs.
+                Cancer Chair, Owen Shanahan, with any questions or feedback.
+              </p>
+
+              <p className="mt-4 font-medium text-gray-700">
+                Your generosity and support is appreciated!
+              </p>
             </div>
-            <div>
-              Vice President : <span className="font-semibold">Jane Smith</span>  
-            </div>
-            <div>
-              Secretary : <span className="font-semibold">Emily Johnson</span>
-            </div>
-             <div>
-              Treasurer : <span className="font-semibold">Michael Brown</span>
+            <hr />
+            <div className="text-center space-y-2">
+              <div>
+                President : <span className="font-semibold">John Doe |</span>
               </div>
-          </div>
+              <div>
+                Vice President :{" "}
+                <span className="font-semibold">Jane Smith |</span>
+              </div>
+              <div>
+                Secretary : <span className="font-semibold">Emily Johnson |</span>
+              </div>
+              <div>
+                Treasurer : <span className="font-semibold">Michael Brown |</span>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-      <Footer />
     </div>
   );
 }

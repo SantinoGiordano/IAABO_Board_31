@@ -26,7 +26,7 @@ export default function Navbar() {
         {/* Logo */}
         <div className="text-xl md:text-2xl font-extrabold tracking-wide">
           <img
-            src="/iaaboLogoRed.png"
+            src="/iaaboLogoWhite.png"
             alt="IAABO Logo"
             className="w-8 h-8 inline-block mr-2 object-contain"
             draggable={false}

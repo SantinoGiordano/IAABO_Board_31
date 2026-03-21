@@ -48,7 +48,7 @@ export default function Footer() {
         {/* LOGO (SECOND / CENTER) */}
         <div className="flex items-center gap-4">
           <img
-            src="/iaaboLogoRed.png"
+            src="/iaaboLogoWhite.png"
             alt="IAABO Logo"
             width={120}
             height={120}

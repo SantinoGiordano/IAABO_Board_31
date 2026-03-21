@@ -136,17 +136,19 @@ export default function Home() {
             <hr />
             <div className="text-center space-y-2">
               <div>
-                President : <span className="font-semibold">John Doe |</span>
+                President : <span className="font-semibold">John Doe | jdoe@gmail.com</span>
               </div>
               <div>
                 Vice President :{" "}
-                <span className="font-semibold">Jane Smith |</span>
+                <span className="font-semibold">Jane Smith | jsmith@gmail.com</span>
               </div>
               <div>
-                Secretary : <span className="font-semibold">Emily Johnson |</span>
+                Secretary :{" "}
+                <span className="font-semibold">Emily Johnson |  ejohnsone@gmail.com</span>
               </div>
               <div>
-                Treasurer : <span className="font-semibold">Michael Brown |</span>
+                Treasurer :{" "}
+                <span className="font-semibold">Michael Brown | mbriwn@gmail.com</span>
               </div>
             </div>
           </div>

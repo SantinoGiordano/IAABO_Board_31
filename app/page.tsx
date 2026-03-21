@@ -18,7 +18,8 @@ export default function Home() {
       <section className="flex justify-center px-4 py-16">
         <div className="w-full max-w-4xl">
           {/* ONE MAIN CARD */}
-          <div className="bg-white text-gray-900 shadow-2xl rounded-3xl p-8 space-y-10">
+            {/* sofen car up with "rounded-3xl" */}
+          <div className="bg-white text-gray-900 shadow-2xl p-8 space-y-10"> 
             {/* MEETING INFO */}
             <div className="text-center space-y-3">
               <h2 className="text-3xl font-bold text-blue-700">

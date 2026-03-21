@@ -4,7 +4,9 @@ import MeetingInfo from "@/componets/MeetingInfo";
 
 export default function Home() {
   return (
-    <div className="bg-gradient-to-b from-black via-blue-950 to-black min-h-screen">
+
+    // BACKGROUND GRADIENT -- can change colors and direction as needed > bg-blue-950 / or black and red design
+    <div className="from-black via-blue-950 to-black min-h-screen">
       {/* HERO */}
       <section className="relative h-[60vh] bg-[url('/heroBanner.jpg')] bg-center bg-cover flex items-center justify-center md:bg-fixed">
         <div className="absolute inset-0 bg-black/70"></div>

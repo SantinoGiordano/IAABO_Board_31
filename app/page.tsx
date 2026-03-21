@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Footer from "@/componets/footer";
 import MeetingInfo from "@/componets/MeetingInfo";
 
 export default function Home() {

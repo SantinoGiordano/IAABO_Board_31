@@ -25,7 +25,7 @@ export default function Home() {
             {/* MEETING INFO */}
             <div className="text-center space-y-3">
               <h2 className="text-3xl font-bold text-blue-700">
-                Meeting Dates
+                Meeting Dates 2026-27
               </h2>
 
               <p>

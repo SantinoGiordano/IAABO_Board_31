@@ -9,6 +9,7 @@ export default function BoardMembers() {
     { role: "Vice President", name: "Jane Smith", email: "jsmith@gmail.com" },
     { role: "Secretary", name: "Emily Johnson", email: "ejohnson@gmail.com" },
     { role: "Treasurer", name: "Michael Brown", email: "mbrown@gmail.com" },
+    { role: "Rules Interpreter", name: "Michael Brown", email: "mbrown@gmail.com" },
   ];
 
   const handleCopy = async (email: string, index: number) => {

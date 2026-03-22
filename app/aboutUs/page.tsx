@@ -6,7 +6,6 @@ export default function AboutUs() {
       <div className=" min-h-screen flex justify-center px-4 py-16">
         <div className="w-full max-w-4xl">
           <div className="bg-white text-gray-900 shadow-2xl p-8 space-y-10">
-          
             <div className="text-center space-y-3">
               <h2 className="text-3xl md:text-4xl font-bold text-red-700">
                 About Us
@@ -44,7 +43,55 @@ export default function AboutUs() {
                 loading="lazy"
               ></iframe>
             </div>
-
+            <h2 className="text-3xl font-bold text-red-700 relative inline-block group">
+              Our Boards Purpose
+              <span className="block h-1 bg-red-600 mt-2 w-0 group-hover:w-full transition-all duration-500"></span>
+            </h2>
+            <ul className="list-disc list-inside space-y-2 text-gray-700">
+              <li>
+                To unite in membership all qualified basketball officials in
+                this geographic area and to promote good fellowship and
+                cooperation among the board.
+              </li>
+              <li>
+                To establish and maintain the highest ideals of sportsmanship in
+                connection with the game.
+              </li>
+              <li>
+                To provide for the training of new officials and to develop
+                among all members a responsibility for knowledge of the rules
+                and conduct of the game as published and adopted by IAABO.
+              </li>
+              <li>
+                To encourage each member to enforce the rules of the game both
+                in spirit and intent.
+              </li>
+            </ul>
+            <h2 className="text-3xl font-bold text-red-700 relative inline-block group">
+              Executive Members
+              <span className="block h-1 bg-red-600 mt-2 w-0 group-hover:w-full transition-all duration-500"></span>
+            </h2>
+            <ul>
+              <li>
+                Odete Tome-Wells, President — 413-210-5976 |
+                odetewells@gmail.com
+              </li>
+              <li>Luis Rodriguez, President-Elect</li>
+              <li>
+                Jeff Rivet, Secretary/Treasurer — 413-575-2006 |{" "}
+                <a id="lnkEmail" href="mailto:jeffreyjrivet@hotmail.com">
+                  jeffreyjrivet@hotmail.com
+                </a>
+              </li>
+              <li>
+                Owen Shanahan, Rules Interpreter/Training Chair — 413-330-6949 |
+                oshanahan58@comcast.net
+              </li>
+              <li>Chris Brown, Esq., Parliamentarian</li>
+              <li>Scott Addison</li>
+              <li>Christina Zazzaro</li>
+              <li>Joe Zazzaro</li>
+            </ul>
           </div>
         </div>
       </div>

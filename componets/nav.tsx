@@ -8,15 +8,15 @@ export default function Navbar() {
 
   const links = [
     { name: "Home", href: "/" },
-    { name: "About Us", href: "/about" },
-    { name: "Board History", href: "/board-history" },
-    { name: "Board News", href: "/board-news" },
+    { name: "About Us", href: "/aboutUs" },
+    { name: "Board History", href: "/boardHistory" },
+    { name: "Board News", href: "/boardNews" },
     { name: "Calendar", href: "/calendar" },
     { name: "Dictionary", href: "/dictionary" },
     { name: "Documents", href: "/documents" },
     { name: "Mentoring", href: "/mentoring" },
-    { name: "New Officials", href: "/new-officials" },
-    { name: "Rules Corner", href: "/rules-corner" },
+    { name: "New Officials", href: "/newOfficials" },
+    { name: "Rules Corner", href: "/rulesCorner" },
   ];
 
   return (

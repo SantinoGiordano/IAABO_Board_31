@@ -1,3 +1,4 @@
+import BoardMembers from "@/componets/boardMembers";
 import MeetingInfo from "@/componets/MeetingInfo";
 
 export default function Home() {
@@ -135,24 +136,7 @@ export default function Home() {
               </p>
             </div>
             <hr />
-            <div className="text-center space-y-2">
-              <div>
-                <span className="font-semibold">President:</span> John Doe |
-                jdoe@gmail.com
-              </div>
-              <div>
-                <span className="font-semibold">Vice President:</span> Jane
-                Smith | jsmith@gmail.com
-              </div>
-              <div>
-                <span className="font-semibold">Secretary:</span> Emily Johnson
-                | ejohnson@gmail.com
-              </div>
-              <div>
-                <span className="font-semibold">Treasurer:</span> Michael Brown
-                | mbrown@gmail.com
-              </div>
-            </div>
+            <BoardMembers />
           </div>
         </div>
       </section>

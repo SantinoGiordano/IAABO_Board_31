@@ -1,10 +1,7 @@
-import Image from "next/image";
-import Footer from "@/componets/footer";
 import MeetingInfo from "@/componets/MeetingInfo";
 
 export default function Home() {
   return (
-
     // BACKGROUND GRADIENT -- can change colors and direction as needed > bg-red-950
     <div className="min-h-screen">
       {/* HERO */}
@@ -20,12 +17,13 @@ export default function Home() {
       <section className="flex justify-center px-4 py-16">
         <div className="w-full max-w-4xl">
           {/* ONE MAIN CARD */}
-            {/* sofen car up with "rounded-3xl" */}
-          <div className="bg-white text-gray-900 shadow-2xl p-8 space-y-10"> 
+          {/* sofen car up with "rounded-3xl" */}
+          <div className="bg-white text-gray-900 shadow-2xl p-8 space-y-10">
             {/* MEETING INFO */}
             <div className="text-center space-y-3">
-              <h2 className="text-3xl font-bold text-red-700">
+              <h2 className="text-3xl font-bold text-red-700 relative inline-block group">
                 Meeting Dates 2026-27
+                <span className="block h-1 bg-red-600 mt-2 w-0 group-hover:w-full transition-all duration-500"></span>
               </h2>
 
               <p>
@@ -139,19 +137,20 @@ export default function Home() {
             <hr />
             <div className="text-center space-y-2">
               <div>
-                President : <span className="font-semibold">John Doe | jdoe@gmail.com</span>
+                <span className="font-semibold">President:</span> John Doe |
+                jdoe@gmail.com
               </div>
               <div>
-                Vice President :{" "}
-                <span className="font-semibold">Jane Smith | jsmith@gmail.com</span>
+                <span className="font-semibold">Vice President:</span> Jane
+                Smith | jsmith@gmail.com
               </div>
               <div>
-                Secretary :{" "}
-                <span className="font-semibold">Emily Johnson |  ejohnsone@gmail.com</span>
+                <span className="font-semibold">Secretary:</span> Emily Johnson
+                | ejohnson@gmail.com
               </div>
               <div>
-                Treasurer :{" "}
-                <span className="font-semibold">Michael Brown | mbriwn@gmail.com</span>
+                <span className="font-semibold">Treasurer:</span> Michael Brown
+                | mbrown@gmail.com
               </div>
             </div>
           </div>

@@ -5,7 +5,7 @@ import MeetingInfo from "@/componets/MeetingInfo";
 export default function Home() {
   return (
 
-    // BACKGROUND GRADIENT -- can change colors and direction as needed > bg-blue-950
+    // BACKGROUND GRADIENT -- can change colors and direction as needed > bg-red-950
     <div className="min-h-screen">
       {/* HERO */}
       <section className="relative h-[60vh] bg-[url('/heroBanner.jpg')] bg-center bg-cover flex items-center justify-center md:bg-fixed">
@@ -24,7 +24,7 @@ export default function Home() {
           <div className="bg-white text-gray-900 shadow-2xl p-8 space-y-10"> 
             {/* MEETING INFO */}
             <div className="text-center space-y-3">
-              <h2 className="text-3xl font-bold text-blue-700">
+              <h2 className="text-3xl font-bold text-red-700">
                 Meeting Dates 2026-27
               </h2>
 
@@ -62,7 +62,7 @@ export default function Home() {
                   The 2026 Refresher Exam can be found{" "}
                   <a
                     href="https://www.npmjs.com/"
-                    className="text-blue-600 font-semibold hover:underline"
+                    className="text-red-600 font-semibold hover:underline"
                   >
                     here
                   </a>
@@ -124,7 +124,7 @@ export default function Home() {
                   href="https://officials.cancer.org/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 font-medium underline hover:text-blue-800 transition"
+                  className="text-red-600 font-medium underline hover:text-red-800 transition"
                 >
                   Visit our site
                 </a>{" "}

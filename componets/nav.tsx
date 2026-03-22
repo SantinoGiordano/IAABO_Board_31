@@ -32,7 +32,7 @@ export default function Navbar() {
             draggable={false}
           />
           <span className="text-white">IAABO</span>{" "}
-          <span className="text-blue-400">Board 31</span>
+          <span className="text-red-500">Board 31</span>
         </div>
 
         {/* Desktop Menu */}
@@ -43,12 +43,12 @@ export default function Navbar() {
               href={link.href}
               className="relative group text-sm font-medium"
             >
-              <span className="group-hover:text-blue-400 transition">
+              <span className="group-hover:text-red-400 transition">
                 {link.name}
               </span>
 
               {/* Underline animation */}
-              <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-blue-400 transition-all group-hover:w-full"></span>
+              <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-red-400 transition-all group-hover:w-full"></span>
             </Link>
           ))}
         </div>
@@ -87,7 +87,7 @@ export default function Navbar() {
             <Link
               key={link.name}
               href={link.href}
-              className="hover:text-blue-600 transition font-medium"
+              className="hover:text-red-600 transition font-medium"
               onClick={() => setIsOpen(false)}
             >
               {link.name}

@@ -86,6 +86,12 @@ export default function Footer() {
         </div>
 
       </div>
+
+            <div className="pt-10 text-center text-sm text-gray-600">
+              &copy; {new Date().getFullYear()} IAABO Board 31 · All rights
+              reserved
+            </div>
+
     </footer>
   );
 }

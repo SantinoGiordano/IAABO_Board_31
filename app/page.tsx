@@ -5,22 +5,21 @@ export default function Home() {
   return (
     // BACKGROUND GRADIENT -- can change colors and direction as needed > bg-red-950
     <div className="min-h-screen">
-      {/* HERO */}
       <section className="relative h-[60vh] bg-[url('/heroBanner.jpg')] bg-center bg-cover flex items-center justify-center md:bg-fixed">
         <div className="absolute inset-0 bg-black/70"></div>
 
         <h1 className="relative text-4xl md:text-6xl font-extrabold text-white text-center px-6">
-          {/* Welcome to IAABO Board 31 */}
           One Rule, One Interpretation
         </h1>
       </section>
 
       <section className="flex justify-center px-4 py-16">
         <div className="w-full max-w-4xl">
-          {/* ONE MAIN CARD */}
+
           {/* sofen car up with "rounded-3xl" */}
           <div className="bg-white text-gray-900 shadow-2xl p-8 space-y-10">
-            {/* MEETING INFO */}
+
+
             <div className="text-center space-y-3">
               <h2 className="text-3xl font-bold text-red-700 relative inline-block group">
                 Meeting Dates 2026-27
@@ -38,10 +37,9 @@ export default function Home() {
               </p>
             </div>
 
-            {/* DIVIDER */}
+
             <div className="border-t border-gray-200"></div>
 
-            {/* REGULAR MEETINGS */}
             <MeetingInfo
               meetings={[
                 { date: "December 7", type: "In Person", time: "10am" },
@@ -51,10 +49,8 @@ export default function Home() {
               ]}
             />
 
-            {/* DIVIDER */}
             <div className="border-t border-gray-200"></div>
 
-            {/* ANNOUNCEMENTS */}
             <div className="text-center space-y-4">
               <div>
                 <p>
@@ -87,10 +83,8 @@ export default function Home() {
               </div>
             </div>
 
-            {/* DIVIDER */}
             <div className="border-t border-gray-200"></div>
 
-            {/* IMAGE WITH CIRCLE BACKGROUND */}
             <div className="flex justify-center">
               <a
                 href="https://officials.cancer.org/"

@@ -1,31 +1,47 @@
+"use client";
+
 import BoardMembers from "@/componets/boardMembers";
 import MeetingInfo from "@/componets/MeetingInfo";
+import { useEffect, useState } from "react";
 
-export default function Home() {
+export default function Hero() {
+  const [offset, setOffset] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => setOffset(window.scrollY);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    // BACKGROUND GRADIENT -- can change colors and direction as needed > bg-red-950
-    <div className="min-h-screen">
-      <section className="relative h-[60vh] bg-[url('/heroBanner.jpg')] bg-center bg-cover flex items-center justify-center md:bg-fixed">
-        <div className="absolute inset-0 bg-black/70"></div>
+    <div className="flex flex-col min-h-screen">
+    <section className="relative h-[60vh] overflow-hidden flex items-center justify-center">
+      {/* Background Image */}
+      <img
+        src="/heroBanner.jpg"
+        alt="Basketball court with hoop and ball"
+        fetchPriority="high"
+        draggable={false}
+        className="absolute inset-0 w-full h-[130%] object-cover"
+        style={{
+          transform: `translateY(${offset * 0.6}px)`,
+        }}
+      />
 
-        <h1 
-        role="banner"
-        className="relative text-4xl md:text-6xl font-extrabold text-white text-center px-6">
-          One Rule, One Interpretation
-        </h1>
-      </section>
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black/50"></div>
+
+      {/* Text */}
+      <h1 className="relative z-10 text-4xl md:text-6xl font-extrabold text-white text-center px-6">
+        One Rule, One Interpretation
+      </h1>
+    </section>
 
       <section className="flex justify-center px-4 py-16">
         <div className="w-full max-w-4xl">
-
           {/* sofen car up with "rounded-3xl" */}
           <div className="bg-white text-gray-900 shadow-2xl p-8 space-y-10">
-
-
-            <div 
-              role="main"
-              className="text-center space-y-3">
-            
+            <div role="main" className="text-center space-y-3">
               <h2 className="text-3xl font-bold text-red-700 relative inline-block group">
                 Meeting Dates 2026-27
                 <span className="block h-1 bg-red-600 mt-2 w-0 group-hover:w-full transition-all duration-500"></span>
@@ -41,7 +57,6 @@ export default function Home() {
                 invite disseminated to the membership
               </p>
             </div>
-
 
             <div className="border-t border-gray-200"></div>
 
@@ -103,6 +118,7 @@ export default function Home() {
                     group-hover:scale-110 group-active:scale-95"
                 >
                   <img
+                    fetchPriority="high"
                     src="/officals_vs_cancer_logo.webp"
                     alt="Officials vs Cancer Logo"
                     className="w-40 h-40 object-contain pointer-events-none"

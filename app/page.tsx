@@ -8,7 +8,9 @@ export default function Home() {
       <section className="relative h-[60vh] bg-[url('/heroBanner.jpg')] bg-center bg-cover flex items-center justify-center md:bg-fixed">
         <div className="absolute inset-0 bg-black/70"></div>
 
-        <h1 className="relative text-4xl md:text-6xl font-extrabold text-white text-center px-6">
+        <h1 
+        role="banner"
+        className="relative text-4xl md:text-6xl font-extrabold text-white text-center px-6">
           One Rule, One Interpretation
         </h1>
       </section>
@@ -20,7 +22,10 @@ export default function Home() {
           <div className="bg-white text-gray-900 shadow-2xl p-8 space-y-10">
 
 
-            <div className="text-center space-y-3">
+            <div 
+              role="main"
+              className="text-center space-y-3">
+            
               <h2 className="text-3xl font-bold text-red-700 relative inline-block group">
                 Meeting Dates 2026-27
                 <span className="block h-1 bg-red-600 mt-2 w-0 group-hover:w-full transition-all duration-500"></span>

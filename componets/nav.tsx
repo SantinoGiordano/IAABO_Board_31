@@ -20,9 +20,11 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="sticky pt-3 pb-3 top-0 z-50 w-full backdrop-blur-md bg-black/70 border-b border-white/10">
+    <nav
+      role="banner"
+      className="sticky pt-3 pb-3 top-0 z-50 w-full backdrop-blur-md bg-black/70 border-b border-white/10"
+    >
       <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between text-white">
-        
         {/* Logo */}
         <div className="text-xl md:text-2xl font-extrabold tracking-wide">
           <img

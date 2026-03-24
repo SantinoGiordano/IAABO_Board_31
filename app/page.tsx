@@ -22,7 +22,7 @@ export default function Hero() {
         alt="Basketball court with hoop and ball"
         fetchPriority="high"
         draggable={false}
-        className="absolute inset-0 w-full h-[130%] object-cover"
+        className="absolute inset-0 w-full h-[120%] object-cover"
         style={{
           transform: `translateY(${offset * 0.6}px)`,
         }}

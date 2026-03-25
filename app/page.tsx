@@ -2,6 +2,7 @@
 
 import BoardMembers from "@/componets/boardMembers";
 import MeetingInfo from "@/componets/MeetingInfo";
+import HeroText from "@/componets/textRotate";
 import { useEffect, useState } from "react";
 
 export default function Hero() {
@@ -15,27 +16,27 @@ export default function Hero() {
 
   return (
     <div className="flex flex-col min-h-screen">
-    <section className="relative h-[60vh] overflow-hidden flex items-center justify-center">
-      {/* Background Image */}
-      <img
-        src="/heroBanner.jpg"
-        alt="Basketball court with hoop and ball"
-        fetchPriority="high"
-        draggable={false}
-        className="absolute inset-0 w-full h-[120%] object-cover"
-        style={{
-          transform: `translateY(${offset * 0.6}px)`,
-        }}
-      />
+      <section className="relative h-[60vh] md:h-[80vh] lg:h-[85vh] overflow-hidden flex items-center justify-center">
+        {/* Background Image */}
+        <img
+          src="/heroBanner.jpg"
+          alt="Basketball court with hoop and ball"
+          fetchPriority="high"
+          draggable={false}
+          className="absolute inset-0 w-full h-[120%] object-cover"
+          style={{
+            transform: `translateY(${offset * 0.6}px)`,
+          }}
+        />
 
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-black/50"></div>
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-black/50"></div>
 
-      {/* Text */}
-      <h1 className="relative z-10 text-4xl md:text-6xl font-extrabold text-white text-center px-6">
-        One Rule, One Interpretation
-      </h1>
-    </section>
+        {/* Text */}
+        <h1 className="relative z-10 text-4xl md:text-6xl lg:text-7xl font-extrabold text-white text-center px-6">
+          <HeroText />
+        </h1>
+      </section>
 
       <section className="flex justify-center px-4 py-16">
         <div className="w-full max-w-4xl">

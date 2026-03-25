@@ -92,7 +92,7 @@ export default function Footer() {
           <p className="mt-2">
             ArbiterSports{" "}
             <a
-              href="https://go.arbitersports.com/arbitersportsb2c.onmicrosoft.com/B2C_1A_DefaultV1_Signin/api/SelfAsserted/confirmed?csrf_token=NHFHcXI1cmV4STRsWXMyaVlJU1FKR3ZzYkkwVHhvaUF2TW1vV1FmQVZmSUE5R3FYSXErSEJISmFkZ0lEWVZScVdSM1JFdW0wL3paVXc5YkRkTmxlS2c9PTsyMDI2LTAzLTI0VDIyOjM1OjQwLjUwNzg0NDVaO05qZ2lLSVNRZlgwVEN6YzdXK0QxZ1E9PTt7IlRhcmdldEVudGl0eSI6Ik1GQVVzZXJBZ2VudCIsIk9yY2hlc3RyYXRpb25TdGVwIjoxfQ==&tx=StateProperties=eyJUSUQiOiI2MTk4Yzg0Mi05MjJjLTQ4M2MtOGY3OS00YTlkZDZjMWFlZDUifQ&p=B2C_1A_DefaultV1_Signin&diags=%7B%22pageViewId%22%3A%22be071945-8437-4b84-af16-a35a67055b92%22%2C%22pageId%22%3A%22SelfAsserted%22%2C%22trace%22%3A%5B%7B%22ac%22%3A%22T005%22%2C%22acST%22%3A1774391742%2C%22acD%22%3A4%7D%2C%7B%22ac%22%3A%22T021%20-%20URL%3Ahttps%3A%2F%2Fassets.arbitersports.com%2Fb2c%2FDefaultV1%2FselfAsserted.html%22%2C%22acST%22%3A1774391742%2C%22acD%22%3A10%7D%2C%7B%22ac%22%3A%22T019%22%2C%22acST%22%3A1774391742%2C%22acD%22%3A6%7D%2C%7B%22ac%22%3A%22T004%22%2C%22acST%22%3A1774391742%2C%22acD%22%3A1%7D%2C%7B%22ac%22%3A%22T003%22%2C%22acST%22%3A1774391742%2C%22acD%22%3A1%7D%2C%7B%22ac%22%3A%22T017T010%22%2C%22acST%22%3A1774391742%2C%22acD%22%3A148%7D%2C%7B%22ac%22%3A%22T002%22%2C%22acST%22%3A1774391742%2C%22acD%22%3A0%7D%2C%7B%22ac%22%3A%22T017T010%22%2C%22acST%22%3A1774391742%2C%22acD%22%3A148%7D%5D%7D"
+              href="https://app.arbitersports.com/login"
               target="_blank"
               className="underline hover:text-white"
             >

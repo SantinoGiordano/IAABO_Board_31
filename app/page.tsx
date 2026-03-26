@@ -33,9 +33,9 @@ export default function Hero() {
         <div className="absolute inset-0 bg-black/50"></div>
 
         {/* Text */}
-        <h1 className="relative z-10 text-4xl md:text-6xl lg:text-7xl font-extrabold text-white text-center px-6">
+        <div className="relative z-10 text-4xl md:text-6xl lg:text-7xl font-extrabold text-white text-center px-6">
           <HeroText />
-        </h1>
+        </div>
       </section>
 
       <section className="flex justify-center px-4 py-16">

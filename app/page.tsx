@@ -16,7 +16,7 @@ export default function Hero() {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <section className="relative h-[60vh] md:h-[80vh] lg:h-[85vh] overflow-hidden flex items-center justify-center">
+      <section className="relative h-[60vh] md:h-[60vh] lg:h-[75vh] overflow-hidden flex items-center justify-center">
         {/* Background Image */}
         <img
           src="/heroBanner.jpg"

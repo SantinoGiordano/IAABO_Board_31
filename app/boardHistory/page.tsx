@@ -15,7 +15,7 @@ export default function BoardHistory() {
 
         {/* TABLE 1 */}
         <DataTable title="Past Presidents" data={presidents} />
-        
+
         <h4 className="text-white text-justify p-5">
           Honoring a former board president and longtime rules interpreter, this
           is presented to a member who has demonstrated exceptional officiating
@@ -25,7 +25,12 @@ export default function BoardHistory() {
 
         {/* TABLE 2 */}
         <DataTable title="Robert D'Agostino Award" data={awardWinners} />
-
+        
+        <h4 className="text-white text-justify p-5">
+          Honoring a former board president and longtime secretary-treasurer,
+          this is presented to a member who has gone above and beyond in service
+          to the board, or helped present it in a favorable light.
+        </h4>
         {/* TABLE 3 */}
         <DataTable title="Tom Award Winners" data={walterHicksonAward} />
       </div>

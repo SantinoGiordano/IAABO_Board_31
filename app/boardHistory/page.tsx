@@ -1,7 +1,7 @@
 import { DataTable } from "@/componets/tables";
 import {
   presidents,
-  awardWinners,
+  RobertDAgostinoAward,
   walterHicksonAward,
 } from "../../data/boardHistory";
 
@@ -24,8 +24,8 @@ export default function BoardHistory() {
         </h4>
 
         {/* TABLE 2 */}
-        <DataTable title="Robert D'Agostino Award" data={awardWinners} />
-        
+        <DataTable title="Robert D'Agostino Award" data={RobertDAgostinoAward} />
+
         <h4 className="text-white text-justify p-5">
           Honoring a former board president and longtime secretary-treasurer,
           this is presented to a member who has gone above and beyond in service

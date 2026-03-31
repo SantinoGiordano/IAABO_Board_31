@@ -67,7 +67,7 @@ export const presidents = [
   { years: "1922-25", name: "A.G. Johnson" },
 ];
 
-export const awardWinners = [
+export const RobertDAgostinoAward = [
   { year: "2019", name: "Brian Alves" },
   { year: "2017", name: "Brian Page" },
   { year: "2015", name: "Mike Shirley" },

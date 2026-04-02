@@ -32,7 +32,7 @@ export default function BoardHistory() {
           to the board, or helped present it in a favorable light.
         </h4>
         {/* TABLE 3 */}
-        <DataTable title="Tom Award Winners" data={walterHicksonAward} />
+        <DataTable title="Walter Hickson Award" data={walterHicksonAward} />
       </div>
     </div>
   );

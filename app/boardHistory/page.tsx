@@ -3,7 +3,7 @@ import {
   presidents,
   RobertDAgostinoAward,
   walterHicksonAward,
-} from "../../data/boardHistory";
+} from "../../data/.boardHistory";
 
 export default function BoardHistory() {
   return (

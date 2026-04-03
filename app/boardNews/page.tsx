@@ -1,4 +1,5 @@
-import { rulesInterpretations } from "@/data/rulesInterpretations";
+
+import { rulesInterpretations } from "@/data/.rulesInterpretations";
 import Link from "next/link";
 
 export default function BoardNews() {

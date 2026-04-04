@@ -87,7 +87,7 @@ export default function Hero() {
                 <p className="text-gray-800">
                   The 2026 Refresher Exam can be found{" "}
                   <a
-                    href="https://www.npmjs.com/"
+                    href="https://testmoz.com/q/14953086"
                     className="text-red-600 font-semibold hover:underline"
                   >
                     here

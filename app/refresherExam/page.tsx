@@ -59,7 +59,7 @@ export default function RefresherExam() {
         </div>
         <button
           onClick={() => router.back()}
-          className="bottom-6 right-6 bg-red-500 text-white px-6 py-4 rounded-full shadow-lg text-lg font-semibold flex items-center gap-2 hover:bg-red-600 hover:scale-105 active:scale-95 transition-all duration-200"
+          className="fixed bottom-6 right-6 bg-red-500 text-white px-6 py-4 rounded-full shadow-lg text-lg font-semibold flex items-center gap-2 hover:bg-red-600 hover:scale-105 active:scale-95 transition-all duration-200"
         >
           <span className="text-xl">←</span>
           Back

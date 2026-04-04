@@ -5,7 +5,7 @@ export default function AboutUs() {
 
       <div className=" min-h-screen flex justify-center px-4 py-16">
         <div className="w-full max-w-4xl">
-          <div className="bg-white text-gray-900 shadow-2xl p-8 space-y-10">
+          <div className="bg-white text-gray-900 shadow-2xl p-8 space-y-10 rounded-lg">
             <div className="text-center space-y-3">
               <h2 className="text-3xl md:text-4xl font-bold text-red-700">
                 About Us

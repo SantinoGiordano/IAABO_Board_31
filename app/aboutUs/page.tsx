@@ -10,7 +10,7 @@ export default function AboutUs() {
               <h2 className="text-3xl md:text-4xl font-bold text-red-700">
                 About Us
               </h2>
-              <div className="text-gray-600 text-lg leading-relaxed">
+              <div className="text-gray-600 text-lg leading-relaxed text-justify">
                 <p>
                   The Western Massachusetts Board of Approved Basketball
                   Officials&nbsp;is affiliated with the International

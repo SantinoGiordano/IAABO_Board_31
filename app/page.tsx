@@ -50,7 +50,7 @@ export default function Hero() {
 
             {/* HEADER */}
             <div className="text-center space-y-3">
-               <h2 className="text-3xl font-bold text-red-700 relative inline-block group">
+               <h2 className="text-3xl font-bold text-red-700 relative inline-block group sm:text-3xl md:text-5xl lg:text-6xl xl:text-7xl">
               Meeting Days 2026-27
               <span className="block h-1 bg-red-600 mt-2 w-0 group-hover:w-full transition-all duration-500"></span>
             </h2>

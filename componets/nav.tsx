@@ -57,6 +57,7 @@ export default function Navbar() {
 
         {/* Mobile Button */}
         <button
+          type="button"
           className="md:hidden flex flex-col space-y-1"
           onClick={() => setIsOpen(!isOpen)}
         >

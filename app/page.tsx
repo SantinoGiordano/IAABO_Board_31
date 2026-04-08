@@ -1,8 +1,8 @@
 "use client";
 
-import BoardMembers from "@/componets/boardMembers";
-import MeetingInfo from "@/componets/MeetingInfo";
-import HeroText from "@/componets/textRotate";
+import BoardMembers from "@/components/boardMembers";
+import MeetingInfo from "@/components/MeetingInfo";
+import HeroText from "@/components/textRotate";
 import { useEffect, useState } from "react";
 
 export default function Hero() {

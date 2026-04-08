@@ -1,4 +1,4 @@
-import { DataTable } from "@/componets/tables";
+import { DataTable } from "@/components/tables";
 import {
   presidents,
   RobertDAgostinoAward,
